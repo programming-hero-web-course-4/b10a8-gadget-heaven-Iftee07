@@ -1,0 +1,27 @@
+[
+  {
+    "category_id": 1,
+    "category_name": "Laptop",
+    "description": "Portable computers with high performance for personal and professional use."
+  },
+  {
+    "category_id": 2,
+    "category_name": "Smartphone",
+    "description": "Advanced mobile phones with smart capabilities and seamless connectivity."
+  },
+  {
+    "category_id": 3,
+    "category_name": "Smartwatch",
+    "description": "Wearable devices offering fitness tracking, notifications, and more."
+  },
+  {
+    "category_id": 4,
+    "category_name": "Headphones",
+    "description": "Audio devices for personal listening with options for wired and wireless."
+  },
+  {
+    "category_id": 5,
+    "category_name": "Speaker",
+    "description": "Portable and home audio systems for superior sound quality."
+  }
+]

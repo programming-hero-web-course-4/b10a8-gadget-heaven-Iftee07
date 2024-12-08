@@ -1,0 +1,512 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://example.com/images/dell-xps-13.jpg",
+    "category": "Laptop",
+    "price": 1299.99,
+    "description": "A high-performance laptop with a sleek design and stunning display.",
+    "Specification": [
+      "13.4-inch FHD+ display",
+      "Intel Core i7 12th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 2,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://example.com/images/macbook-air-m2.jpg",
+    "category": "Laptop",
+    "price": 1199.99,
+    "description": "Apple's lightweight laptop with the powerful M2 chip for seamless performance.",
+    "Specification": [
+      "13.6-inch Retina display",
+      "Apple M2 chip",
+      "8GB RAM",
+      "256GB SSD",
+      "macOS Ventura"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 3,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://example.com/images/hp-spectre-x360.jpg",
+    "category": "Laptop",
+    "price": 1399.99,
+    "description": "A versatile 2-in-1 laptop with a premium design and strong performance.",
+    "Specification": [
+      "13.5-inch OLED touchscreen",
+      "Intel Core i7 12th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 11 Pro"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 4,
+    "product_title": "Asus ROG Zephyrus G14",
+    "product_image": "https://example.com/images/asus-rog-g14.jpg",
+    "category": "Laptop",
+    "price": 1499.99,
+    "description": "A powerful gaming laptop with excellent performance and portability.",
+    "Specification": [
+      "14-inch QHD display",
+      "AMD Ryzen 9 6900HS",
+      "32GB RAM",
+      "1TB SSD",
+      "NVIDIA GeForce RTX 3060"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 5,
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://example.com/images/thinkpad-x1-carbon.jpg",
+    "category": "Laptop",
+    "price": 1599.99,
+    "description": "A business laptop with premium build quality and excellent performance.",
+    "Specification": [
+      "14-inch UHD+ display",
+      "Intel Core i7 13th Gen",
+      "16GB RAM",
+      "1TB SSD",
+      "Windows 11 Pro"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": 6,
+    "product_title": "iPhone 15 Pro",
+    "product_image": "https://example.com/images/iphone-15-pro.jpg",
+    "category": "Smartphone",
+    "price": 1199.99,
+    "description": "Apple's flagship smartphone with the A17 Bionic chip and pro camera system.",
+    "Specification": [
+      "6.1-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "128GB storage",
+      "48MP Pro camera system",
+      "USB-C"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 7,
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://example.com/images/galaxy-s23-ultra.jpg",
+    "category": "Smartphone",
+    "price": 1399.99,
+    "description": "Samsung's premium smartphone with advanced camera capabilities and performance.",
+    "Specification": [
+      "6.8-inch Dynamic AMOLED 2X display",
+      "Snapdragon 8 Gen 2",
+      "256GB storage",
+      "200MP camera",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 8,
+    "product_title": "Google Pixel 7 Pro",
+    "product_image": "https://example.com/images/pixel-7-pro.jpg",
+    "category": "Smartphone",
+    "price": 899.99,
+    "description": "Google's flagship phone with excellent AI camera capabilities.",
+    "Specification": [
+      "6.7-inch OLED display",
+      "Google Tensor G2 chip",
+      "12GB RAM",
+      "256GB storage",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 9,
+    "product_title": "OnePlus 11",
+    "product_image": "https://example.com/images/oneplus-11.jpg",
+    "category": "Smartphone",
+    "price": 799.99,
+    "description": "A high-performance smartphone with fast charging and a premium design.",
+    "Specification": [
+      "6.7-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "128GB storage",
+      "50MP camera",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 10,
+    "product_title": "Xiaomi Redmi Note 12 Pro",
+    "product_image": "https://example.com/images/redmi-note-12-pro.jpg",
+    "category": "Smartphone",
+    "price": 399.99,
+    "description": "A mid-range smartphone with great performance and value for money.",
+    "Specification": [
+      "6.67-inch AMOLED display",
+      "MediaTek Dimensity 1080",
+      "128GB storage",
+      "108MP camera",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 11,
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://example.com/images/apple-watch-9.jpg",
+    "category": "Smartwatch",
+    "price": 399.99,
+    "description": "Apple's latest smartwatch with advanced health tracking and seamless connectivity.",
+    "Specification": [
+      "41mm Retina display",
+      "S9 chip",
+      "Heart rate and SpO2 monitoring",
+      "18-hour battery life",
+      "Water resistance"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 12,
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://example.com/images/galaxy-watch-6.jpg",
+    "category": "Smartwatch",
+    "price": 299.99,
+    "description": "A powerful smartwatch with advanced fitness tracking features.",
+    "Specification": [
+      "40mm AMOLED display",
+      "Exynos W930",
+      "Heart rate and sleep tracking",
+      "GPS support",
+      "5 ATM water resistance"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 13,
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://example.com/images/sony-wh-1000xm5.jpg",
+    "category": "Headphones",
+    "price": 349.99,
+    "description": "Industry-leading noise-cancelling headphones with exceptional sound quality.",
+    "Specification": [
+      "Bluetooth 5.2",
+      "Up to 30 hours battery life",
+      "Adaptive sound control",
+      "Voice assistant support",
+      "Quick charge feature"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 14,
+    "product_title": "JBL Flip 6",
+    "product_image": "https://example.com/images/jbl-flip-6.jpg",
+    "category": "Speaker",
+    "price": 129.99,
+    "description": "A compact Bluetooth speaker with great sound and waterproof design.",
+    "Specification": [
+      "IP67 waterproof",
+      "12 hours battery life",
+      "Bluetooth 5.1",
+      "Stereo sound",
+      "Compact design"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 15,
+    "product_title": "Bose QuietComfort 45",
+    "product_image": "https://example.com/images/bose-qc45.jpg",
+    "category": "Headphones",
+    "price": 329.99,
+    "description": "Comfortable headphones with exceptional noise-cancelling technology.",
+    "Specification": [
+      "Bluetooth 5.1",
+      "Up to 24 hours battery life",
+      "Active noise cancellation",
+      "USB-C quick charge",
+      "Multi-device pairing"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 16,
+    "product_title": "Sony SRS-XB43",
+    "product_image": "https://example.com/images/sony-xb43.jpg",
+    "category": "Speaker",
+    "price": 229.99,
+    "description": "A powerful portable speaker with extra bass and long battery life.",
+    "Specification": [
+      "IP67 waterproof",
+      "24 hours battery life",
+      "Bluetooth 5.0",
+      "Party connect",
+      "LED lighting effects"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 17,
+    "product_title": "Samsung Galaxy Buds Pro 2",
+    "product_image": "https://example.com/images/galaxy-buds-2.jpg",
+    "category": "Headphones",
+    "price": 149.99,
+    "description": "Compact and stylish wireless earbuds with excellent sound and ANC.",
+    "Specification": [
+      "Bluetooth 5.3",
+      "Noise cancellation",
+      "IPX7 water resistance",
+      "Up to 8 hours battery life",
+      "Qi wireless charging"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 18,
+    "product_title": "Anker Soundcore Motion+",
+    "product_image": "https://example.com/images/anker-motion-plus.jpg",
+    "category": "Speaker",
+    "price": 99.99,
+    "description": "A value-packed portable speaker with Hi-Res audio and deep bass.",
+    "Specification": [
+      "Hi-Res audio",
+      "IPX7 waterproof",
+      "12 hours battery life",
+      "Bluetooth 5.0",
+      "Customizable EQ"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 19,
+    "product_title": "Huawei Watch GT 3 Pro",
+    "product_image": "https://example.com/images/huawei-watch-gt3-pro.jpg",
+    "category": "Smartwatch",
+    "price": 329.99,
+    "description": "A premium smartwatch with impressive battery life and fitness features.",
+    "Specification": [
+      "1.43-inch AMOLED display",
+      "Up to 14 days battery life",
+      "Heart rate and SpO2 monitoring",
+      "GPS support",
+      "100+ workout modes"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 20,
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://example.com/images/fitbit-versa-4.jpg",
+    "category": "Smartwatch",
+    "price": 229.99,
+    "description": "A lightweight smartwatch with advanced health tracking features.",
+    "Specification": [
+      "1.58-inch AMOLED display",
+      "6+ days battery life",
+      "Heart rate and sleep tracking",
+      "Google Assistant and Alexa",
+      "Water resistance"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 21,
+    "product_title": "Sony Xperia 1 V",
+    "product_image": "https://example.com/images/sony-xperia-1v.jpg",
+    "category": "Smartphone",
+    "price": 1299.99,
+    "description": "A flagship smartphone with professional-grade camera and 4K display.",
+    "Specification": [
+      "6.5-inch 4K OLED display",
+      "Snapdragon 8 Gen 2",
+      "256GB storage",
+      "12GB RAM",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 22,
+    "product_title": "Nothing Phone (2)",
+    "product_image": "https://example.com/images/nothing-phone-2.jpg",
+    "category": "Smartphone",
+    "price": 749.99,
+    "description": "A stylish smartphone with transparent back and smooth performance.",
+    "Specification": [
+      "6.7-inch AMOLED display",
+      "Snapdragon 8+ Gen 1",
+      "128GB storage",
+      "Dual 50MP cameras",
+      "4500mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 23,
+    "product_title": "Asus ROG Phone 7",
+    "product_image": "https://example.com/images/asus-rog-phone-7.jpg",
+    "category": "Smartphone",
+    "price": 999.99,
+    "description": "A gaming smartphone with high performance and advanced cooling features.",
+    "Specification": [
+      "6.78-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "256GB storage",
+      "6000mAh battery",
+      "RGB lighting"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 24,
+    "product_title": "Microsoft Surface Laptop Studio",
+    "product_image": "https://example.com/images/surface-laptop-studio.jpg",
+    "category": "Laptop",
+    "price": 1999.99,
+    "description": "A versatile laptop with a unique tilting touchscreen design.",
+    "Specification": [
+      "14.4-inch PixelSense Flow display",
+      "Intel Core i7 11th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 25,
+    "product_title": "Bose SoundLink Revolve+ II",
+    "product_image": "https://example.com/images/bose-soundlink-revolve-2.jpg",
+    "category": "Speaker",
+    "price": 329.99,
+    "description": "A portable Bluetooth speaker with deep bass and 360-degree sound.",
+    "Specification": [
+      "IP55 water resistant",
+      "17 hours battery life",
+      "360-degree sound",
+      "Bluetooth 5.0",
+      "Built-in microphone"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 26,
+    "product_title": "Marshall Stanmore II",
+    "product_image": "https://example.com/images/marshall-stanmore-2.jpg",
+    "category": "Speaker",
+    "price": 399.99,
+    "description": "A vintage-style speaker with powerful sound and premium design.",
+    "Specification": [
+      "Bluetooth 5.0",
+      "Customizable EQ",
+      "Analog controls",
+      "Multi-host functionality",
+      "20W power"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 27,
+    "product_title": "HyperX Cloud II Wireless",
+    "product_image": "https://example.com/images/hyperx-cloud-2.jpg",
+    "category": "Headphones",
+    "price": 159.99,
+    "description": "Wireless gaming headset with immersive sound and comfort.",
+    "Specification": [
+      "2.4GHz wireless connection",
+      "53mm drivers",
+      "7.1 surround sound",
+      "30 hours battery life",
+      "Noise-cancelling microphone"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 28,
+    "product_title": "Sony LinkBuds",
+    "product_image": "https://example.com/images/sony-linkbuds.jpg",
+    "category": "Headphones",
+    "price": 179.99,
+    "description": "Open-ear true wireless earbuds for all-day comfort and awareness.",
+    "Specification": [
+      "IPX4 water resistant",
+      "Bluetooth 5.2",
+      "5.5 hours battery life",
+      "Quick charge",
+      "Multi-point connection"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 29,
+    "product_title": "Amazon Echo Studio",
+    "product_image": "https://example.com/images/echo-studio.jpg",
+    "category": "Speaker",
+    "price": 199.99,
+    "description": "A high-fidelity smart speaker with Alexa built-in and 3D audio.",
+    "Specification": [
+      "360-degree audio",
+      "Dolby Atmos support",
+      "Alexa integration",
+      "Wi-Fi and Bluetooth",
+      "Compact design"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 30,
+    "product_title": "Beats Studio Buds",
+    "product_image": "https://example.com/images/beats-studio-buds.jpg",
+    "category": "Headphones",
+    "price": 149.99,
+    "description": "Compact true wireless earbuds with active noise cancellation.",
+    "Specification": [
+      "IPX4 water resistance",
+      "Bluetooth 5.2",
+      "8 hours battery life",
+      "Transparency mode",
+      "USB-C charging"
+    ],
+    "availability": true,
+    "rating": 4.6
+  }
+]
