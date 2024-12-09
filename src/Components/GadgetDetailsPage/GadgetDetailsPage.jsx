@@ -3,6 +3,8 @@ import Footer from "../Footer/Footer";
 import Navbar from "../NavBar/Navbar";
 import GadgetDetails from "../GadgetDetails/GadgetDetails";
 import { useEffect, useState } from "react";
+import { Toaster } from "react-hot-toast";
+import { getFavs } from "../../Utils/utils";
 
 const GadgetDetailsPage = () => {
   const { id } = useParams();
@@ -16,6 +18,7 @@ const GadgetDetailsPage = () => {
 
   return (
     <div>
+      <Toaster></Toaster>
       <Navbar classic={"bg-white text-black px-12"}></Navbar>
       <div className="bg-purple-600 py-12 space-y-5 pb-[300px]">
         <h1 className="text-4xl text-center text-white font-bold">

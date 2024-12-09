@@ -1,13 +1,32 @@
-const GadgetDetails = ({ gadget }, { classes }) => {
+import { useEffect, useState } from "react";
+import { addFavourite, getFavs } from "../../Utils/utils";
+
+const GadgetDetails = ({ gadget }) => {
   const {
     product_title,
+    product_id,
     price,
     description,
     Specification,
     rating,
     availability,
   } = gadget;
-  console.log(Specification);
+  const [isfavourite, setFavourite] = useState(false);
+  const handleFav = (gadget) => {
+    addFavourite(gadget);
+    setFavourite(true);
+  };
+
+  useEffect(() => {
+    const allFavs = getFavs();
+    const exists = allFavs.find((item) => item.product_id == product_id);
+    if (exists) {
+      setFavourite(true);
+    } else {
+      setFavourite(false);
+    }
+  }, [gadget, product_id]);
+
   return (
     <div className="flex w-[1000px] mx-auto gap-5 my-10 bg-white p-5 rounded-2xl">
       <div className="bg-slate-300 w-[400px] h-[500px] rounded-3xl">
@@ -35,7 +54,11 @@ const GadgetDetails = ({ gadget }, { classes }) => {
           })}
         </ol>
         <p>Rating: {rating}</p>
-        <button className="btn bg-purple-600 text-white rounded-full">
+        <button
+          disabled={isfavourite}
+          className="btn bg-purple-600 text-white rounded-full"
+          onClick={() => handleFav(gadget)}
+        >
           Add to Cart
         </button>
       </div>
