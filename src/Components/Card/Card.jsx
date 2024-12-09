@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+
 const Card = ({ gadget }) => {
-  const { product_title, price, description } = gadget;
+  const { product_title, price, description, product_id } = gadget;
   return (
     <div>
       <div className="card card-compact bg-base-100 w-80 shadow-xl">
@@ -14,7 +16,11 @@ const Card = ({ gadget }) => {
           <p>{description}</p>
           <p>Price: {price}$</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">View Details</button>
+            <Link to={`/product/${product_id}`}>
+              <button className="btn btn-primary bg-white text-black rounded-full">
+                View Details
+              </button>
+            </Link>
           </div>
         </div>
       </div>

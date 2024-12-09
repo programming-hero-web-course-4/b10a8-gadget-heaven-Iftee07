@@ -1,9 +1,9 @@
 import { FaCartShopping, FaHeart } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ classic }) => {
   return (
-    <div className="navbar bg-purple-600 text-white rounded-2xl px-2">
+    <div className={`navbar ${classic} rounded-2xl px-2`}>
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

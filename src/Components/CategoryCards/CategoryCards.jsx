@@ -5,13 +5,16 @@ import { useEffect, useState } from "react";
 const CategoryCards = () => {
   const { category_name } = useParams();
   const products = useLoaderData();
-  console.log(products);
   const [gadgets, setGadgets] = useState([]);
   useEffect(() => {
-    const filtered = [...products].filter(
-      (gadget) => gadget.category === category_name
-    );
-    setGadgets(filtered);
+    if (category_name) {
+      const filtered = [...products].filter(
+        (gadget) => gadget.category === category_name
+      );
+      setGadgets(filtered);
+    } else {
+      setGadgets(products);
+    }
   }, [category_name, products]);
 
   return (
